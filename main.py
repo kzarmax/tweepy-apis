@@ -3,15 +3,15 @@ import apis.instance
 
 
 def get_me():
-    tweepy_instance = apis.instance.getinstance()
-    me = tweepy_instance.get_me()
+    _, client = apis.instance.getinstance()
+    me = client.get_me()
     user = me.data
     print(f'{user.id}')
 
 
 def get_bookmarks():
-    tweepy_instance = apis.instance.getinstance()
-    bookmarks = tweepy_instance.get_bookmarks()
+    _, client = apis.instance.getinstance()
+    bookmarks = client.get_bookmarks()
     print(f'{bookmarks}')
 
 
