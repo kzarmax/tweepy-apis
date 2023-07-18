@@ -3,18 +3,26 @@ import apis.instance
 
 
 def get_me():
-    _, client = apis.instance.getinstance()
+    client = apis.instance.getinstance()
     me = client.get_me()
     user = me.data
     print(f'{user.id}')
+    return user
 
 
 def get_bookmarks():
-    _, client = apis.instance.getinstance()
-    bookmarks = client.get_bookmarks()
+    client = apis.instance.getinstance()
+
+    bookmarks = client.c_get_bookmarks()
+    client.request()
     print(f'{bookmarks}')
 
 
+def fetch_pkce():
+    apis.instance.fetch_pkce_with_oauth2()
+
+
 if __name__ == '__main__':
-    get_me()
-    get_bookmarks()
+    # me = get_me()
+    # get_bookmarks()
+    fetch_pkce()
