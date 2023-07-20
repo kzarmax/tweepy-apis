@@ -1,0 +1,8 @@
+{
+    "name": "kjeih0411",
+    "authorization_url": "https://twitter.com/i/oauth2/authorize?response_type=code&client_id=Rm1yOG5fSi1haEVpbWdMc3VNSHo6MTpjaQ&redirect_uri=http%3A%2F%2F127.0.0.1%3A3000%2Fcallback&scope=bookmark.read+bookmark.write+tweet.read+users.read&state=P7b62740ER6RO3vZgis7eA7LTsSyhv&code_challenge=B_4rAfapWU_UsZNDUFch_Pr81PpZiPYMEQGEVIK-VNM&code_challenge_method=S256",
+    "access_token": "UElpME5uMFNDemtBYlMxa1owQ0g1T0NQTmRUdHhOMHFrNkhFc2tZNEt3UnJDOjE2ODk4NjM4MDAyMzM6MToxOmF0OjE",
+    "state": "P7b62740ER6RO3vZgis7eA7LTsSyhv",
+    "code_challenge": "ESNlYCVqzYXgL0QX3Rxt_sezaSIr-ubwwd_yxyXO5EI",
+    "code_verifier": "8-j4bCC3SLIF00MyX1RbOmyIkIZjIf-t-7PIigFTkwkkd19qRQYn0JltLGtHCWBPZmiL03eB2DWBRGSm8DkaBMQH0WX3A_ee7XKB5duPQQ2JFgBGdmMihFDk1e4GPRwt4Dai778iEM4XMzE1OhsS5eH7YQUGudTer8u5ZJr9oI0"
+}
